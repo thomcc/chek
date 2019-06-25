@@ -1,0 +1,21 @@
+[package]
+name = "chek"
+version = "0.1.0"
+authors = ["Thom Chiovoloni <chiovolonit@gmail.com>"]
+edition = "2018"
+description = "An assertions library."
+keywords = ["assert", "debug_assert", "debug", "assertions", "testing"]
+homepage = "https://github.com/thomcc/chek"
+documentation = "https://docs.rs/chek"
+repository = "https://github.com/thomcc/chek"
+license = "CC0-1.0"
+readme = "README.md"
+categories = ["no-std"]
+
+[features]
+inline_panics = []
+default = ["inline_panics"]
+
+[dependencies]
+almost = "0.1.0"
+
