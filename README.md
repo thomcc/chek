@@ -1,4 +1,4 @@
-# [`chek`](https://crates.io/crates/more-asserts): macros for checking things.
+# [`chek`](https://crates.io/crates/chek): macros for checking things.
 
 [![Docs](https://docs.rs/chek/badge.svg)](https://docs.rs/chek)
 
