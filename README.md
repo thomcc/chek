@@ -75,13 +75,13 @@ do that manually.
     - A debug_assertions-only version is available: `chek::debug_not_almost_equal!`.
     - Uses the [`almost` crate](https://crates.io/crates/almost). See [the `almost::equal` documentation](https://docs.rs/almost/%2a/almost/fn.equal.html) documentation for more details.
 
-- `chek::almost_zero_with_tolerance!(a)`: Similar to `assert!(almost::zero_with_tolerance(a, b, tol))`, but with better output on failure.
-    - A debug_assertions-only version is available: `chek::debug_almost_zero_with_tolerance!`.
-    - Uses the [`almost` crate](https://crates.io/crates/almost). See [the `almost::zero_with_tolerance` documentation](https://docs.rs/almost/%2a/almost/fn.zero_with_tolerance.html) documentation for more details.
+- `chek::almost_zero_with!(a)`: Similar to `assert!(almost::zero_with(a, b, tol))`, but with better output on failure.
+    - A debug_assertions-only version is available: `chek::debug_almost_zero_with!`.
+    - Uses the [`almost` crate](https://crates.io/crates/almost). See [the `almost::zero_with` documentation](https://docs.rs/almost/%2a/almost/fn.zero_with.html) documentation for more details.
 
-- `chek::not_almost_zero_with_tolerance!(a)`: Similar to `assert!(!almost::zero_with_tolerance(a, b, tol))`, but with better output on failure.
-    - A debug_assertions-only version is available: `chek::debug_not_almost_zero_with_tolerance!`.
-    - Uses the [`almost` crate](https://crates.io/crates/almost). See [the `almost::zero_with_tolerance` documentation](https://docs.rs/almost/%2a/almost/fn.zero_with_tolerance.html) documentation for more details.
+- `chek::not_almost_zero_with!(a)`: Similar to `assert!(!almost::zero_with(a, b, tol))`, but with better output on failure.
+    - A debug_assertions-only version is available: `chek::debug_not_almost_zero_with!`.
+    - Uses the [`almost` crate](https://crates.io/crates/almost). See [the `almost::zero_with` documentation](https://docs.rs/almost/%2a/almost/fn.zero_with.html) documentation for more details.
 
 - `chek::debug_unreachable_unchecked!()`: Unsafe. Similar to [`std::hint::unreachable_unchecked`](https://doc.rust-lang.org/stable/std/hint/fn.unreachable_unchecked.html), but panics in debug builds if it's hit.
 

@@ -17,5 +17,5 @@ inline_panics = []
 default = ["inline_panics"]
 
 [dependencies]
-almost = "0.1.0"
+almost = "0.2.0"
 
